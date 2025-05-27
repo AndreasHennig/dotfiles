@@ -1,0 +1,13 @@
+[window]
+#dimensions = { columns = 100, lines = 85 }
+padding = { x = 0, y = 0 }
+decorations = "Full"
+decorations_theme_variant = "Light"
+opacity = 1.0
+
+[font]
+#normal = { family = "Cascadia Code PL", style = "Regular" }
+size = 16.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }

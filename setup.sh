@@ -8,3 +8,6 @@ ln -s $SCRIPTPATH/yazi/yazi.toml ~/.config/yazi/yazi.toml
 
 mkdir -p ~/.config/tmux
 ln -s $SCRIPTPATH/tmux/tmux.conf ~/.config/tmux/tmux.conf
+
+mkdir -p ~/.config/alacritty
+ln -s $SCRIPTPATH/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
