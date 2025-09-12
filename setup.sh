@@ -19,3 +19,6 @@ ln -s $SCRIPTPATH/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
 
 mkdir -p ~/.config/aerospace
 ln -s $SCRIPTPATH/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
+
+mkdir -p ~/.config/i3
+ln -s $SCRIPTPATH/i3/config ~/.config/i3/config
