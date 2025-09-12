@@ -1,3 +1,8 @@
 source ~/.vimrc
 
 map <leader>ru <Action>(RiderUnitTestRunContextAction)
+map <leader>rau <Action>(RiderUnitTestRunTreeTwAction)
+
+map <leader>da <Action>(Debug)
+map <leader>ra <Action>(Run)
+map <leader>sa <Action>(Stop)

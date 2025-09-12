@@ -1,6 +1,6 @@
 [window]
 #dimensions = { columns = 100, lines = 85 }
-padding = { x = 0, y = 0 }
+padding = { x = 8, y = 8 }
 decorations = "Full"
 decorations_theme_variant = "Light"
 opacity = 1.0

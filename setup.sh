@@ -13,3 +13,9 @@ ln -s $SCRIPTPATH/tmux/tmux.conf ~/.config/tmux/tmux.conf
 
 mkdir -p ~/.config/alacritty
 ln -s $SCRIPTPATH/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+
+mkdir -p ~/.config/fastfetch
+ln -s $SCRIPTPATH/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+
+mkdir -p ~/.config/aerospace
+ln -s $SCRIPTPATH/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
