@@ -8,7 +8,7 @@ set number relativenumber
 syntax enable
 set termguicolors
 
-filetype on
+filetype plugin indent on
 set scrolloff=5
 set noerrorbells
 let g:netrw_special_syntax = 1
