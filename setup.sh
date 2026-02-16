@@ -27,3 +27,9 @@ ln -s $SCRIPTPATH/sketchybar/plugins ~/.config/sketchybar/plugins
 if [[ "$OSTYPE" == "darwin"* ]]; then
         ln -s $SCRIPTPATH/vscode/macos/settings.json ~/Library/Application\ Support/Code/User/settings.json
 fi
+
+mkdir -p ~/.config/i3
+ln -s $SCRIPTPATH/i3/config ~/.config/i3/config
+
+mkdir -p ~/.emacs.d
+ln -s $SCRIPTPATH/emacs/init.el ~/.emacs.d/
