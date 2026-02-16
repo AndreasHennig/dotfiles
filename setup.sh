@@ -22,3 +22,6 @@ ln -s $SCRIPTPATH/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
 
 mkdir -p ~/.config/i3
 ln -s $SCRIPTPATH/i3/config ~/.config/i3/config
+
+mkdir -p ~/.emacs.d
+ln -s $SCRIPTPATH/emacs/init.el ~/.emacs.d/
