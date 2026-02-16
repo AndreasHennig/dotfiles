@@ -19,3 +19,11 @@ ln -s $SCRIPTPATH/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
 
 mkdir -p ~/.config/aerospace
 ln -s $SCRIPTPATH/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
+
+mkdir -p ~/.config/sketchybar
+ln -s $SCRIPTPATH/sketchybar/sketchybarrc ~/.config/sketchybar/sketchybarrc
+ln -s $SCRIPTPATH/sketchybar/plugins ~/.config/sketchybar/plugins
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+        ln -s $SCRIPTPATH/vscode/macos/settings.json ~/Library/Application\ Support/Code/User/settings.json
+fi

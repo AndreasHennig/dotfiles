@@ -9,9 +9,16 @@ syntax enable
 set termguicolors
 
 filetype on
+filetype plugin on
 set scrolloff=5
 set noerrorbells
 let g:netrw_special_syntax = 1
+
+" vimwiki
+let g:vimwiki_list = [{'syntax': 'markdown',
+                      \'ext': 'md'}]
+
+"let g:vimwiki_global_ext = 0
 
 " Indentation settings.
 " Sources: https://superuser.com/a/1104409
@@ -53,6 +60,9 @@ call plug#begin()
     "Plug 'jiangmiao/auto-pairs'
     Plug 'catppuccin/vim', { 'as': 'catppuccin' }
     Plug 'preservim/nerdtree'
+    Plug 'vimwiki/vimwiki'
+    Plug 'jceb/vim-orgmode'
+    Plug 'tpope/vim-speeddating'
     "Plug 'dense-analysis/ale'
     "Plug 'OmniSharp/omnisharp-vim'
 call plug#end()

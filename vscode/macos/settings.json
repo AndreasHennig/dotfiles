@@ -1,0 +1,29 @@
+{
+    "maui.configuration.androidSdkPreferredPath": "~/Library/Android/sdk",
+    "maui.configuration.javaSdkPreferredPath": "/Library/Java/JavaVirtualMachines/microsoft-21.jdk/Contents/Home",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "nrf-connect.enableTelemetry": false,
+    "csharp.experimental.debug.hotReload": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "editor.lineNumbers": "relative",
+    // Vim extension settings
+    "vim.leader": "<space>",
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "r", "u"],
+            "commands": ["testing.runAtCursor"],
+        },
+        {
+            "before": ["leader", "r", "a", "u"],
+            "commands": ["testing.runAll"]
+        }
+    ]
+}
